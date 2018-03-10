@@ -22,10 +22,12 @@ We certainly do use the [PDB](https://www.rcsb.org/)! But the PDB alone does not
 | Text-Based | Text-Based | Text-Based | Text-Based | Text-Based | Text-Based | Text-Based |
 | TF Records | TF Records | TF Records | TF Records | TF Records | TF Records | TF Records |
 
-## Further Information
-
-Please click the links below for additional information on ProteinNet.
+## Documentation
 
 * Contents overview
 * Data split methodology
 * FAQ
+
+## Citation
+
+Please cite the forthcoming preprint on ProteinNet when it becomes available.
