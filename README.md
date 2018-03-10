@@ -5,8 +5,11 @@ Construction of this data set consumed millions of compute hours and was possibl
 
 **Note that this is a preliminary and incomplete release.** The raw data used for construction of the data sets, including the MSAs, are not yet available.
 
-## Motivation
+### Motivation
 Protein structure prediction is one of the central problems of biochemistry. While the problem is well-studied within the biological and chemical sciences, it is less well represented within the machine learning community. We believe that if the barrier to entry to protein structure prediction is lowered, it can become a major source of innovation in ML research, alongside the canonical tasks of computer vision, NLP, and speech recognition. Much like ImageNet helped spur the development of new computer vision techniques, ProteinNet aims to facilitate ML research on protein structure by providing a standardized data set and set of benchmarks that any group can use to develop and compare new methodologies to existing ones, with minimal effort required to get started.
+
+### Approach
+The basic idea behind ProteinNet is to piggyback on the CASP series of competitions, which occur every two years. During CASP, structure predictors from across the globe are presented with protein sequences whose structures have been recently solved, but which have not yet been made publicly available. The predictors make blind predictions of these structures, which are then assessed for their accuracy. The CASP set of structures provide a standardized benchmark for how well prediction methods perform at a _given moment in time_. The basic idea behind ProteinNet is to piggyback on CASP, by using the CASP structures as test sets. ProteinNet augments these test sets with training / validation sets that _reset the historical record_ to the conditions preceding each CASP experiment. In particular, ProteinNet restricts the set of sequences (used for building PSSMs and MSAs) and structures to those available prior to the commencement of each CASP. This is critical as standard databases such as BLAST do not maintain historical versions. We use time-reset versions of the UniParc dataset as well as metagenomic sequences from the JGI to build sequence databases for deriving MSAs. 
 
 ### Why not just use the PDB?
 We certainly do use the [PDB](https://www.rcsb.org/)! But the PDB alone does not make a data set for the following reasons:
@@ -15,19 +18,19 @@ We certainly do use the [PDB](https://www.rcsb.org/)! But the PDB alone does not
 * No MSAs or PSSMs, which can be extremely prohibitive to compute (millions of compute hours.)
 * No standardized splits for training, validation, and test sets. This is a delicate process for protein sequences, as further explained here. The standard clustering provided by the PDB is not appropriate for machine learning purposes.
 
-## Download
+### Download
 
 | All | CASP7 | CASP8 | CASP9 | CASP10 | CASP11 | CASP12 |
 | --- | --- | --- | --- | --- | --- | --- |
 | Text-Based | Text-Based | Text-Based | Text-Based | Text-Based | Text-Based | Text-Based |
 | TF Records | TF Records | TF Records | TF Records | TF Records | TF Records | TF Records |
 
-## Documentation
+### Documentation
 
 * Contents overview
 * Data split methodology
 * FAQ
 
-## Citation
+### Citation
 
 Please cite the forthcoming preprint on ProteinNet when it becomes available.
