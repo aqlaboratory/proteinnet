@@ -25,7 +25,7 @@ We certainly do use the [PDB](https://www.rcsb.org/)! But the PDB alone does not
 ### Documentation
 * Content overview
 * File formats
-* Data split methodology
+* Clustering / splitting methodology
 * FAQ
 
 ### Citation
