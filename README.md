@@ -13,9 +13,9 @@ Once every two years the [CASP](http://predictioncenter.org/) assessment is held
 
 ### Why not just use the PDB?
 We certainly do use the [PDB](https://www.rcsb.org/)! But the PDB alone does not make a data set for the following reasons:
-* Lack of a standardized approach for dealing with structural pathologies such as missing residues and fragments, multiple chains, etc.
-* Lack of well-defined protein domains. We augment the PDB with information from [ASTRAL](http://scop.berkeley.edu/) to provide single domains as well as full-length protein entries.
-* No MSAs or PSSMs, which can be extremely prohibitive to compute (millions of compute hours.)
+* The PDB only provides structural data. It does not include MSAs or PSSMs, which can be very expensive to compute (millions of compute hours.)
+* Raw PDB structures lack a standardized approach for dealing with pathologies such as missing residues and multiple chains.
+* Lack of protein domain boundaries, which we have found to be useful in modeling. We augment the PDB with information from [ASTRAL](http://scop.berkeley.edu/) to provide single domains as well as full-length protein entries.
 * No standardized splits for training, validation, and test sets. This is a delicate process for protein sequences, as further explained here. The standard clustering provided by the PDB is not appropriate for machine learning purposes.
 
 ### Download
