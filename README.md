@@ -23,7 +23,7 @@ We certainly do use the [PDB](https://www.rcsb.org/)! But the PDB alone does not
 | TF Records | TF Records | TF Records | TF Records | TF Records | TF Records | TF Records |
 
 ### Documentation
-* Contents overview
+* Content overview
 * File formats
 * Data split methodology
 * FAQ
