@@ -1,11 +1,6 @@
-# Content Overview
-ProteinNet is comprised of three main components, described in detail below:
-* [Protein Records](content_overview.md#protein-records)
-* Raw Data
-* Supporting Code
+# ProteinNet Records
+The core component of ProteinNet are the ProteinNet Records which can be used to training machine learning models. Each ProteinNet Record is comprised of:
 
-## Protein Records
-The core component of ProteinNet is made up of the protein record entries which can be used to train machine learning models. Each protein entry is comprised of:
 * Sequence
 * PSSM + Information Content
 * Secondary Structure
