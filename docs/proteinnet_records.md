@@ -33,5 +33,22 @@ We do not _a priori_ define the relationship between the various components of a
 
 ProteinNet Records are currently provided in two file formats, a machine-readable text file where each ProteinNet Record is of the following form:
 
-\[ID\]
-<seq\_id>#<pdb\_id>\_<chain\_number>\_<chain\_id>
+```
+[ID]
+<seq_id>#<pdb_id>_<chain_number>_<chain_id>
+[PRIMARY]
+<sequence>
+[EVOLUTIONARY]
+<pssm>
+<ic>
+[SECONDARY]
+<secondary_structure>
+[TERTIARY]
+<tertiary_structure>
+[MASK]
+<mask>
+```
+
+where the quantities inside \<\> are strings and space-delimited arrays of the form previously described. The \<seq_id\> field of the ID entry is only present in the validation set, and corresponds to the sequence identity of the entry that captures its difficulty level. For test set entries, the ID field only contains the CASP identifier.
+
+ProteinNet Records are also provided as `TFRecord` entries for user with [TensorFlow](https://www.tensorflow.org). 
