@@ -6,12 +6,10 @@ __author__ = "Mohammed AlQuraishi"
 __copyright__ = "Copyright 2018, Harvard Medical School"
 __license__ = "MIT"
 
-import numpy as np
 import tensorflow as tf
 
 NUM_AAS = 20
 NUM_DIMENSIONS = 3
-NUM_DIHEDRALS = 3
 
 def masking_matrix(mask, name=None):
     """ Constructs a masking matrix to zero out pairwise distances due to missing residues or padding. 
@@ -85,7 +83,7 @@ def read_protein(filename_queue, max_length, num_evo_entries=21, name=None):
         one_hot_primary = tf.one_hot(primary, NUM_AAS)
 
         # Generate tertiary masking matrix--if mask is missing then assume all residues are present
-        mask = tf.cond(tf.not_equal(tf.size(mask), 0), lambda: mask, lambda: tf.ones([pri_length - num_edge_residues]))
+        mask = tf.cond(tf.not_equal(tf.size(mask), 0), lambda: mask, lambda: tf.ones([pri_length]))
         ter_mask = masking_matrix(mask, name='ter_mask')        
 
         return id_, one_hot_primary, evolutionary, secondary, tertiary, ter_mask, pri_length, keep
