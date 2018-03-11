@@ -9,13 +9,6 @@ Protein structure prediction is one of the central problems of biochemistry. Whi
 ### Approach
 Once every two years the [CASP](http://predictioncenter.org/) assessment is held. During this competition structure predictors from across the globe are presented with protein sequences whose structures have been recently solved but which have not yet been made publicly available. The predictors make blind predictions of these structures, which are then assessed for their accuracy. The CASP structures thus provide a standardized benchmark for how well prediction methods perform at a _given moment in time_. The basic idea behind ProteinNet is to piggyback on CASP, by using CASP structures as test sets. ProteinNet augments these test sets with training / validation sets that _reset the historical record_ to the conditions preceding each CASP experiment. In particular, ProteinNet restricts the set of sequences (used for building PSSMs and MSAs) and structures to those available prior to the commencement of each CASP. This is critical as standard databases such as [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) do not maintain historical versions. We use time-reset versions of the [UniParc](http://www.uniprot.org/uniparc/) dataset as well as metagenomic sequences from the [JGI](https://img.jgi.doe.gov/) to build sequence databases for deriving MSAs. ProteinNet further provides carefully split validation sets that range in difficulty from easy (>90% seq. id.), useful for assessing a model's ability to predict minor changes in protein structure such as mutations, to extremely difficult (<10 seq. id.), useful for assessing a model's abiliy to predict entirely new protein folds, as in the CASP Free Modeling (FM) category. In a sense, our validation sets provide a series of transferability challenges to test how well a model can withstand distributional shifts in the data set. We have found that our most difficult validation subsets exceed the difficulty of CASP FM targets.
 
-### Why not just use the PDB?
-We certainly do use the [PDB](https://www.rcsb.org/)! But the PDB alone does not make a data set for the following reasons:
-* The PDB only provides structural data. It does not include MSAs or PSSMs, which can be very expensive to compute (millions of compute hours.)
-* Raw PDB structures lack a standardized approach for dealing with pathologies such as missing residues and multiple chains.
-* Lack of protein domain boundaries, which we have found to be useful in modeling. We augment the PDB with information from [ASTRAL](http://scop.berkeley.edu/) to provide single domains as well as full-length protein entries.
-* No standardized splits for training, validation, and test sets. This is a delicate process for protein sequences, as further explained here. The standard clustering provided by the PDB is not appropriate for machine learning purposes.
-
 ### Download
 | All | CASP7 | CASP8 | CASP9 | CASP10 | CASP11 | CASP12 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -24,9 +17,9 @@ We certainly do use the [PDB](https://www.rcsb.org/)! But the PDB alone does not
 
 ### Documentation
 * Content overview
-* File formats
 * Clustering / splitting methodology
-* FAQ
+* File formats
+* [FAQ](docs/FAQ.md)
 
 ### Citation
 Please cite the forthcoming preprint on ProteinNet when it becomes available.
