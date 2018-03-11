@@ -16,9 +16,9 @@ Once every two years the [CASP](http://predictioncenter.org/) assessment is held
 | TF Records | TF Records | TF Records | TF Records | TF Records | TF Records | TF Records |
 
 ### Documentation
-* [Content overview](docs/content_overview.md)
-* [Splitting methodology](docs/splitting_methodology.md)
-* File formats
+* [ProteinNet Records](docs/proteinnet_records.md)
+* [Splitting Methodology](docs/splitting_methodology.md)
+* [Raw Data](docs/raw_data.md)
 * [FAQ](docs/FAQ.md)
 
 ### Citation
