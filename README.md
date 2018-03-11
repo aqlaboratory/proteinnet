@@ -17,7 +17,7 @@ Once every two years the [CASP](http://predictioncenter.org/) assessment is held
 
 ### Documentation
 * Content overview
-* Clustering / splitting methodology
+* [Splitting methodology](docs/splitting_methodology.md)
 * File formats
 * [FAQ](docs/FAQ.md)
 
