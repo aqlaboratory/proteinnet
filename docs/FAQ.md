@@ -25,4 +25,4 @@ Explain why splits are critical. Uniqueness of protein problem vs. things like c
 ### Why is CASP7 the earliest one provided?
 
 ### Why isn't the raw data and MSAs available yet?
-The full data set is very large (tens of TBs compressed). We are currently looking for sponsors that are able to host it. If you think you can help, [get in touch](mailto:alquraishi@hms.harvard.edu)!
+The full data set is very large (tens of TBs compressed). We are currently looking for sponsors that are able to host it. If you think you can help, [get in touch](mailto:alquraishi@hms.harvard.edu?subject=ProteinNet%20Hosting)!
