@@ -1,4 +1,11 @@
 # FAQ
+### Why not just use the PDB?
+We certainly do use the [PDB](https://www.rcsb.org/)! But the PDB alone does not make a data set for the following reasons:
+* The PDB only provides structural data. It does not include MSAs or PSSMs, which can be very expensive to compute (millions of compute hours.)
+* Raw PDB structures lack a standardized approach for dealing with pathologies such as missing residues and multiple chains.
+* Lack of protein domain boundaries, which we have found to be useful in modeling. We augment the PDB with information from [ASTRAL](http://scop.berkeley.edu/) to provide single domains as well as full-length protein entries.
+* No standardized splits for training, validation, and test sets. This is a delicate process for protein sequences, as further explained here. The standard clustering provided by the PDB is not appropriate for machine learning purposes.
+
 ### Doesn’t CASP already do what ProteinNet purports to do?
 Yes and no. [CASP](http://predictioncenter.org) is critical to making ProteinNet possible by supplying the structures needed to make an effective test set. CASP organizers go to extraordinary lengths to secure protein structures which have not yet been deposited in publicly available servers, and can thus serve as blind targets for genuine _pre_-diction as opposed to mere _post_-diction. CASP organizers furthermore manually examine and categorize these structures into known (TBM) and unknown (FM) topologies, providing an objective third-party assessment of prediction difficulty. Participation in the actual CASP competition is the gold standard for demonstrating a method's effectiveness at protein structure prediction, much like participation in the actual [ImageNet](http://www.image-net.org) competition in years past.
 
