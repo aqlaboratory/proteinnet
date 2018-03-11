@@ -31,4 +31,7 @@ We do not _a priori_ define the relationship between the various components of a
 
 ## File Formats
 
-ProteinNet Records are currently provided in two file formats, a machine-readable text file 
+ProteinNet Records are currently provided in two file formats, a machine-readable text file where each ProteinNet Record is of the following form:
+
+\[ID\]
+<seq\_id>#<pdb\_id>\_<chain\_number>\_<chain\_id>
