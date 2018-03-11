@@ -14,6 +14,10 @@ The core component of ProteinNet are the ProteinNet Records which can be used to
 
 **Tertiary structure** is the three-dimensional atomic representation of a protein. The preliminary release of ProteinNet only contains the [backbone](https://en.wikipedia.org/wiki/Backbone_chain) atoms, corresponding to the sequential chain of N, C_alpha, and C' atoms. Each amino acid residue is represented by a real-valued 3x3 matrix, corresponding to the (x,y,z) coordinates of each of the three backbone atoms. Thus the full protein is represented by a sequence of 3n 3-dimensional vectors, where n is the number of amino acids in a protein.
 
+## Data set structure
+
 ProteinNet Records are grouped into six separate (but partially overlapping) data sets, corresponding to each of the CASP competitions, starting with CASP7 and ending in the most recent CASP12. Each data set is comprised of training and validation sets that only include data available prior to the start of the CASP assessment, and a test set comprised of the structures used during the CASP competition. The training set is available in multiple "thinnings", corresponding to how densely sampled (in sequence space) the entries are. The thinnings are at 30%, 50%, 70%, 90%, 95%, and 100% levels of sequence identity. The validation set is subdivided into distinct non-overlapping groups of varying difficulty, defined by their maximum sequence identity to the training set (at 100% thinning.) The difficulty levels are at 10%, 20%, 30%, 40%, 50%, 70%, and 90% sequence identities. For more information on the data clustering / splitting process see the [relevant](splitting_methodology.md) documentation page.
 
 We do not _a priori_ define the relationship between the various components of a ProteinNet Record. We envision the primary use case to employ sequence and PSSM information as input, and secondary and tertiary structure as prediction targets. However nothing in the data requires this. For example, it’s possible to take the structure as input, and predict the sequence! (e.g. protein design.)
+
+## File formats
