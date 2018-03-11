@@ -49,6 +49,6 @@ ProteinNet Records are currently provided in two file formats, a machine-readabl
 <mask>
 ```
 
-where the quantities inside \<\> are strings and space-delimited arrays of the form previously described. The \<seq_id\> field of the ID entry is only present in the validation set, and corresponds to the sequence identity of the entry that captures its difficulty level. For test set entries, the ID field only contains the CASP identifier.
+where the quantities inside `<>` are strings and space-delimited arrays of the form previously described. The `<seq_id>` field of the ID entry is only present in the validation set, and corresponds to the sequence identity of the entry that captures its difficulty level. For test set entries, the ID field only contains the CASP identifier.
 
-ProteinNet Records are also provided as `TFRecord` entries for user with [TensorFlow](https://www.tensorflow.org). 
+ProteinNet Records are also provided as `TFRecord` entries for use with [TensorFlow](https://www.tensorflow.org), along with a simple parser to process these records. The `TFRecord` entries are grouped into files containing 256 records each to facilitate shuffling.
