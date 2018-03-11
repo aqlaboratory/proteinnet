@@ -21,3 +21,5 @@ ProteinNet Records are grouped into six separate (but partially overlapping) dat
 We do not _a priori_ define the relationship between the various components of a ProteinNet Record. We envision the primary use case to employ sequence and PSSM information as input, and secondary and tertiary structure as prediction targets. However nothing in the data requires this. For example, it’s possible to take the structure as input, and predict the sequence! (e.g. protein design.)
 
 ## File Formats
+
+ProteinNet Records are currently provided in two file formats, a machine-readable text file 
