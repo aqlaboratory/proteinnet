@@ -1,8 +1,6 @@
 # ProteinNet
 ProteinNet is a standardized data set for machine learning of protein structure. It provides a series of comprehensive data sets containing sequences, structures ([secondary](https://en.wikipedia.org/wiki/Protein_secondary_structure) and [tertiary](https://en.wikipedia.org/wiki/Protein_tertiary_structure)), multiple sequence alignments ([MSAs](https://en.wikipedia.org/wiki/Multiple_sequence_alignment)), position-specific scoring matrices ([PSSMs](https://en.wikipedia.org/wiki/Position_weight_matrix)), and standardized [training / validation / test](https://en.wikipedia.org/wiki/Training,_test,_and_validation_sets) splits. ProteinNet builds on the biennial [CASP](http://predictioncenter.org/) assessments, which carry out blind predictions of recently solved but publicly unavailable protein structures, to provide test sets that push the frontiers of computational methodology. 
 
-Construction of this data set consumed millions of compute hours and was possible thanks to the generous support of the [Research Computing](https://rc.hms.harvard.edu) group at [Harvard Medical School](https://hms.harvard.edu).
-
 **Note that this is a preliminary and incomplete release.** The raw data used for construction of the data sets, as well as the MSAs, are not yet available.
 
 ### Motivation
@@ -19,19 +17,19 @@ We certainly do use the [PDB](https://www.rcsb.org/)! But the PDB alone does not
 * No standardized splits for training, validation, and test sets. This is a delicate process for protein sequences, as further explained here. The standard clustering provided by the PDB is not appropriate for machine learning purposes.
 
 ### Download
-
 | All | CASP7 | CASP8 | CASP9 | CASP10 | CASP11 | CASP12 |
 | --- | --- | --- | --- | --- | --- | --- |
 | Text-Based | Text-Based | Text-Based | Text-Based | Text-Based | Text-Based | Text-Based |
 | TF Records | TF Records | TF Records | TF Records | TF Records | TF Records | TF Records |
 
 ### Documentation
-
 * Contents overview
 * File formats
 * Data split methodology
 * FAQ
 
 ### Citation
-
 Please cite the forthcoming preprint on ProteinNet when it becomes available.
+
+### Acknowledgements
+Construction of this data set consumed millions of compute hours and was possible thanks to the generous support of the [Research Computing](https://rc.hms.harvard.edu) group at [Harvard Medical School](https://hms.harvard.edu).
