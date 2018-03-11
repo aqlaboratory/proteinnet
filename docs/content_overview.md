@@ -1,7 +1,6 @@
 # Content Overview
-ProteinNet is comprised of four main components, described in detail below:
+ProteinNet is comprised of three main components, described in detail below:
 * [Protein Records](content_overview.md#protein-records)
-* Protein Metadata
 * Raw Data
 * Supporting Code
 
