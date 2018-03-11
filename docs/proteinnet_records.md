@@ -19,7 +19,7 @@ The core component of ProteinNet are the ProteinNet Records which can be used to
 
 ## Organization
 
-ProteinNet Records are grouped into six separate (but partially overlapping) data sets, corresponding to each of the CASP competitions, starting with CASP7 and ending in the most recent CASP12. Each data set is comprised of training and validation sets that only include data available prior to the start of the CASP assessment, and a test set comprised of the structures used during the CASP competition. 
+ProteinNet Records are grouped into six separate (but partially overlapping) data sets, corresponding to each of the CASP competitions, starting with CASP7 and ending with the most recent CASP12. Each data set is comprised of training and validation sets that only include data available prior to the start of the CASP assessment, and a test set comprised of the structures used during the CASP competition. 
 
 The training set is available in multiple "thinnings", corresponding to how densely sampled (in sequence space) the entries are. The thinnings are at 30%, 50%, 70%, 90%, 95%, and 100% levels of sequence identity.
 
