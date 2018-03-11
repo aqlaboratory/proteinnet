@@ -17,7 +17,6 @@ Once every two years the [CASP](http://predictioncenter.org/) assessment is held
 
 ### Documentation
 * [ProteinNet Records](docs/proteinnet_records.md)
-* [Parsers](docs/parsers.md)
 * [Splitting Methodology](docs/splitting_methodology.md)
 * [Raw Data](docs/raw_data.md)
 * [FAQ](docs/FAQ.md)
