@@ -19,10 +19,8 @@ Note that like all such data sets, ProteinNet relies on the honor system. Unlike
 ### Why care about time-reset protein sequences? Aren't structures all that matter?
 With the advent of [co-evolution based methods](https://www.nature.com/articles/nrg3414) for protein structure prediction, which rely on building very large multiple sequence alignments (MSAs) to predict contacts in a 3D structure, the availability of protein sequences can now have a profound impact on a method's ability to predict protein structure. Thus the set of sequences included in a training set is as important as the set of structures.
 
-### Why is it a big deal how protein data sets are split?
-Explain why splits are critical. Uniqueness of protein problem vs. things like computer vision, etc.
-
 ### Why is CASP7 the earliest one provided?
+CASP assessments prior to CASP7 do not have standardized parseable data, and the categorization of proteins into TBM / FM categories is not as well established. If the need arises to train models with very minimal data, for example for one-shot learning, we will consider building ProteinNet counterparts of earlier CASPs.
 
 ### Why isn't the raw data and MSAs available yet?
 The full data set is very large (tens of TBs compressed). We are currently looking for sponsors that are able to host it. If you think you can help, [get in touch](mailto:alquraishi@hms.harvard.edu?subject=ProteinNet%20Hosting)!
