@@ -27,4 +27,4 @@ Once every two years the [CASP](http://predictioncenter.org/) assessment is held
 Please cite the forthcoming preprint on ProteinNet when it becomes available.
 
 ### Acknowledgements
-Construction of this data set consumed millions of compute hours and was possible thanks to the generous support of the [Research Computing](https://rc.hms.harvard.edu) group at [Harvard Medical School](https://hms.harvard.edu).
+Construction of this data set consumed millions of compute hours and was possible thanks to the generous support of the [Research Computing](https://rc.hms.harvard.edu) group at [Harvard Medical School](https://hms.harvard.edu). We also thank [Martin Steinegger](https://github.com/martin-steinegger) and Milot 
