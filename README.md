@@ -13,6 +13,7 @@ Once every two years the [CASP](http://predictioncenter.org/) assessment is held
 | CASP7 | CASP8 | CASP9 | CASP10 | CASP11 | CASP12* |
 | --- | --- | --- | --- | --- | --- |
 | Text-Based | Text-Based | Text-Based | Text-Based | Text-Based | Text-Based |
+| Human-Readable | Human-Readable | Human-Readable | Human-Readable | Human-Readable | Human-Readable |
 | TF Records | TF Records | TF Records | TF Records | TF Records | TF Records |
 
 \* CASP12 test set is incomplete due to embargoed structures. When the embargo is lifted we will release all structures.
