@@ -15,7 +15,7 @@ Once every two years the [CASP](http://predictioncenter.org/) assessment is held
 | Text-Based | Text-Based | Text-Based | Text-Based | Text-Based | Text-Based |
 | TF Records | TF Records | TF Records | TF Records | TF Records | TF Records |
 
-\* CASP12 test set is incomplete due to embargoed structures. When the embargo is lifted we will release all structures.
+\* CASP12 test set is incomplete due to embargoed structures. Once the embargo is lifted we will release all structures.
 
 ### Documentation
 * [ProteinNet Records](docs/proteinnet_records.md)
