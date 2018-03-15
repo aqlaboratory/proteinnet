@@ -23,4 +23,4 @@ With the advent of [co-evolution based methods](https://www.nature.com/articles/
 CASP assessments prior to CASP7 do not have standardized parseable data, and the categorization of proteins into TBM / FM categories is not as well established. If the need arises to train models with very minimal data, for example for one-shot learning, we will consider building ProteinNet counterparts of earlier CASPs.
 
 ### Why isn't the raw data and MSAs available yet?
-The full data set is very large (tens of TBs compressed). We are currently looking for sponsors that are able to host it. If you think you can help, [get in touch](mailto:alquraishi@hms.harvard.edu?subject=ProteinNet%20Hosting)!
+The full data set is very large (tens of TBs compressed), and we are currently exploring the best way to host it for broad public access.
