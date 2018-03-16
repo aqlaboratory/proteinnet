@@ -12,8 +12,8 @@ Once every two years the [CASP](http://predictioncenter.org/) assessment is held
 ### Download
 | CASP7 | CASP8 | CASP9 | CASP10 | CASP11 | CASP12* |
 | --- | --- | --- | --- | --- | --- |
-| Text-Based | Text-Based | Text-Based | Text-Based | Text-Based | Text-Based |
-| TF Records | TF Records | TF Records | TF Records | TF Records | TF Records |
+| [Text-Based](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/human_readable/casp7.tar.gz) | [Text-Based](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/human_readable/casp8.tar.gz) | [Text-Based](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/human_readable/casp9.tar.gz) | [Text-Based](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/human_readable/casp10.tar.gz) | [Text-Based](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/human_readable/casp11.tar.gz) | [Text-Based](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/human_readable/casp12.tar.gz) |
+| [TF Records](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/tfrecords/casp7.tar.gz) | [TF Records](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/tfrecords/casp8.tar.gz) | [TF Records](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/tfrecords/casp9.tar.gz) | [TF Records](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/tfrecords/casp10.tar.gz) | [TF Records](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/tfrecords/casp11.tar.gz) | [TF Records](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/tfrecords/casp12.tar.gz) |
 
 \* CASP12 test set is incomplete due to embargoed structures. Once the embargo is lifted we will release all structures.
 
