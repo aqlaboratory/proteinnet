@@ -1,5 +1,5 @@
 # ProteinNet Records
-The core component of ProteinNet are the ProteinNet Records which can be used to training machine learning models. Each ProteinNet Record is comprised of:
+ProteinNet is comprised of ProteinNet Records which can be used to train machine learning models. Each ProteinNet Record is in turn comprised of:
 
 * Sequence
 * PSSM + Information Content
