@@ -5,6 +5,6 @@ The current preliminary release of ProteinNet does not include any of the raw da
 * **Sequence databases** used in building multiple sequence alignments (MSAs) of protein sequences
 * **MSAs** used in building position-specific scoring matrices (PSSMs) which can be used for co-evolutionary analyses
 * **Additional types of PSSMs** (current ones are derived using JackHMMer)
-* **Complete documentation** of ProteinNet construction pipeline
+* **Complete documentation** of the ProteinNet construction pipeline
 
 Stay tuned!
