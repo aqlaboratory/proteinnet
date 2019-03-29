@@ -23,6 +23,9 @@ Once every two years the [CASP](http://predictioncenter.org/) assessment is held
 * [Raw Data](docs/raw_data.md)
 * [FAQ](docs/FAQ.md)
 
+### PyTorch Parser
+ProteinNet includes an official TensorFlow-based parser. [Jeppe Hallgren](https://github.com/JeppeHallgren) has kindly created a PyTorch-based parser that is available [here](https://github.com/OpenProtein/openprotein/blob/master/preprocessing.py).
+
 ### Citation
 Please cite the [ProteinNet preprint](https://arxiv.org/abs/1902.00249) on arXiv.
 
