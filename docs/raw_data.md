@@ -1,10 +1,4 @@
 # Raw Data
-The current preliminary release of ProteinNet does not include any of the raw data used to build ProteinNet, but the full release will. The raw data will consist of:
+The raw data comprising all MSAs for ProteinNet12 is available for download upon request. The data is large, approximately 4TB in size, and requires a Globus client for downloading. Please [email us](mailto:alquraishi@hms.harvard.edu) to request access.
 
-* **Raw structure** files containing secondary and tertiary structures
-* **Sequence databases** used in building multiple sequence alignments (MSAs) of protein sequences
-* **MSAs** used in building position-specific scoring matrices (PSSMs) which can be used for co-evolutionary analyses
-* **Additional types of PSSMs** (current ones are derived using JackHMMer)
-* **Complete documentation** of the ProteinNet construction pipeline
-
-Stay tuned!
+Once we are able to provide broad access we will post a public Globus endpoint for all ProteinNets.
