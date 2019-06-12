@@ -29,7 +29,7 @@ ProteinNet records are provided in two forms: human- and machine-readable text f
 ProteinNet includes an official TensorFlow-based parser. [Jeppe Hallgren](https://github.com/JeppeHallgren) has kindly created a PyTorch-based parser that is available [here](https://github.com/OpenProtein/openprotein/blob/master/preprocessing.py).
 
 ### Citation
-Please cite the [ProteinNet preprint](https://arxiv.org/abs/1902.00249) on arXiv.
+Please cite the [ProteinNet paper](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2932-0) in BMC Bioinformatics.
 
 ### Acknowledgements
 Construction of this data set consumed millions of compute hours and was possible thanks to the generous support of the [HMS Laboratory of Systems Pharmacology](http://hits.harvard.edu/the-program/laboratory-of-systems-pharmacology/about/), the [Harvard Program in Therapeutic Science](http://hits.harvard.edu/the-program/program-in-regulatory-science/about/), and the [Research Computing](https://rc.hms.harvard.edu) group at [Harvard Medical School](https://hms.harvard.edu). We also thank [Martin Steinegger](https://github.com/martin-steinegger) and [Milot Mirdita](https://github.com/milot-mirdita) for their extensive help with the MMseqs2 and HHblits software packages, [Sergey Ovchinnikov](http://site.solab.org/) for providing metagenomic sequences, [Andriy Kryshtafovych](http://predictioncenter.org/people/kryshtafovych/index.cgi) for his assistance with CASP data, and [Sean Eddy](https://github.com/cryptogenomicon) for his help with the HMMer software package. This data set is hosted by the [HMS Research Information Technology Solutions](https://rits.hms.harvard.edu) group at Harvard University.
