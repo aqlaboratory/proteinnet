@@ -33,3 +33,6 @@ Please cite the [ProteinNet paper](https://bmcbioinformatics.biomedcentral.com/a
 
 ### Acknowledgements
 Construction of this data set consumed millions of compute hours and was possible thanks to the generous support of the [HMS Laboratory of Systems Pharmacology](http://hits.harvard.edu/the-program/laboratory-of-systems-pharmacology/about/), the [Harvard Program in Therapeutic Science](http://hits.harvard.edu/the-program/program-in-regulatory-science/about/), and the [Research Computing](https://rc.hms.harvard.edu) group at [Harvard Medical School](https://hms.harvard.edu). We also thank [Martin Steinegger](https://github.com/martin-steinegger) and [Milot Mirdita](https://github.com/milot-mirdita) for their extensive help with the MMseqs2 and HHblits software packages, [Sergey Ovchinnikov](http://site.solab.org/) for providing metagenomic sequences, [Andriy Kryshtafovych](http://predictioncenter.org/people/kryshtafovych/index.cgi) for his assistance with CASP data, and [Sean Eddy](https://github.com/cryptogenomicon) for his help with the HMMer software package. This data set is hosted by the [HMS Research Information Technology Solutions](https://rits.hms.harvard.edu) group at Harvard University.
+
+### Funding
+This work was supported by NIGMS grant P50GM107618 and NCI grant U54-CA225088.
