@@ -7,7 +7,7 @@ ProteinNet is comprised of ProteinNet Records which can be used to train machine
 * Tertiary Structure
 * Mask
 
-**Sequences** are the primary amino acid chains that constitue a protein. They are represented by a string of characters with an alphabet size of 20. Our standard [parser](../code/parser.py) converts this into a variable-length tensor comprised of 20-dimensional one-hot vectors; one dimension per amino acid, ordered alphabetically.
+**Sequences** are the primary amino acid chains that constitue a protein. They are represented by a string of characters with an alphabet size of 20. Our standard [parser](../code/tf_parser.py) converts this into a variable-length tensor comprised of 20-dimensional one-hot vectors; one dimension per amino acid, ordered alphabetically.
 
 **PSSMs**, a.k.a. [position-specific scoring matrices](https://en.wikipedia.org/wiki/Position_weight_matrix), summarize the propensity of each residue position along the protein chain to mutate to other amino acids. They are represented by a sequence of real-valued 20-dimensional vectors (one dimension for each amino acid, ordered alphabetically), normalized to range in value between 0 and 1. An additional dimension, corresponding to the information content of a residue, is concatenated with each vector to bring the total dimensionality to 21. We will provide multiple types of PSSMs, but this preliminary release of ProteinNet contains PSSMs derived using [JackHMMer](http://hmmer.org) from UniParc and metagenomic sequences.
 
@@ -51,4 +51,4 @@ ProteinNet Records are currently provided in two file formats, a human- and mach
 
 where the quantities inside `<>` are strings and space-delimited arrays of the form previously described. The `<class>` field of the ID entry is only present in the validation and test sets, and corresponds to the sequence identity class and CASP class, respectively. For test set entries, the remainder of the ID field only contains the CASP identifier.
 
-ProteinNet Records are also provided as `TFRecord` entries for use with [TensorFlow](https://www.tensorflow.org), along with a simple [parser](../code/parser.py) to process these records. The `TFRecord` entries are grouped into files containing 256 records each to facilitate shuffling.
+ProteinNet Records are also provided as `TFRecord` entries for use with [TensorFlow](https://www.tensorflow.org), along with a simple [parser](../code/tf_parser.py) to process these records. The `TFRecord` entries are grouped into files containing 256 records each to facilitate shuffling.
