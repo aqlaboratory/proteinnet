@@ -4,10 +4,16 @@ ProteinNet은 단백질 구조에 대한 머신러닝을 위한 표준화된 데
 단백질 시퀀스와 구조, 다중서열정렬(MSA), PSSMs, 그리고 표준화된 훈련용, 평가용, 테스트용 데이터를 제공합니다.
 ProteinNet은 단백질 구조 예측 대회(CASP)를 기반으로 만들어 졌습니다.
 CASP는 이미 알고는 있지만 공개되지 않은, 단백질 구조에 대한 블라인드 테스트를 수행하는 대회입니다.
+데이터가 많거나 적은 환경안에서도 새로운 방법을 평가하기 위해서, 다양한 데이터 셋의 크기를 하나로 이어지는 데이터 형태로 제공합니다.
 
+#### 이건 아직 개발중에 있습니다
+
+데이터 셋으 만들기 위한 원본 데이터들은 아직 이용가능하지 않습니다. 하지만 ProteinNet 12에 쓰인 raw MSA data (4TB)는 요청에 의해 제공 될 수 있습니다.
+더 자세한 내용은 [여기](https://github.com/aqlaboratory/proteinnet/blob/master/docs/raw_data.md)를 클릭하세요
 
 # 하루 한줄 번역
 
 공부목적으로 배우는 깃 페이지 번역입니다
 
 # translate to korean by Bue-Von-hon
+hoping to be helpful....
