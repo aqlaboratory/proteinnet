@@ -11,7 +11,8 @@ CASP는 이미 알고는 있지만 공개되지 않은, 단백질 구조에 대�
 데이터 셋으 만들기 위한 원본 데이터들은 아직 이용가능하지 않습니다. 하지만 ProteinNet 12에 쓰인 raw MSA data (4TB)는 요청에 의해 제공 될 수 있습니다.
 더 자세한 내용은 [여기](https://github.com/aqlaboratory/proteinnet/blob/master/docs/raw_data.md)를 클릭하세요
 
-#동기
+# 동기
+
 단백질 구조 예측은 생화학 분야에서 가장 어려운 문제 중 하나 입니다.
 
 
