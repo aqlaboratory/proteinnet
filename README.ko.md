@@ -31,7 +31,23 @@ CASP 대회는 2년에 한번 열립니다. 이 대회에서는 최근에 밣혀
 
 ## 다운로드
 
-Proteinnet의 기록은 두가지 형태로 제공됩니다.
+Proteinnet의 기록은 두가지 형태로 제공됩니다. 하나는 사람과 기계 모두 읽을 수 있는 텍스트 파일(프로그래밍 가능한 파일), 다른 하나는 텐서플로에 특화된 TFRecord파일입니다. 파일 형식에 대한 더 많은 정보는 [여기](https://github.com/aqlaboratory/proteinnet/blob/master/docs/proteinnet_records.md#file-formats)를 클릭하세요.
+
+| CASP7 | CASP8 | CASP9 | CASP10 | CASP11 | CASP12* |
+| --- | --- | --- | --- | --- | --- |
+| [Text-based](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/human_readable/casp7.tar.gz) | [Text-based](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/human_readable/casp8.tar.gz) | [Text-based](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/human_readable/casp9.tar.gz) | [Text-based](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/human_readable/casp10.tar.gz) | [Text-based](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/human_readable/casp11.tar.gz) | [Text-based](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/human_readable/casp12.tar.gz) |
+| [TF Records](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/tfrecords/casp7.tar.gz) | [TF Records](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/tfrecords/casp8.tar.gz) | [TF Records](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/tfrecords/casp9.tar.gz) | [TF Records](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/tfrecords/casp10.tar.gz) | [TF Records](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/tfrecords/casp11.tar.gz) | [TF Records](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/tfrecords/casp12.tar.gz) |
+
+* CASP 12 테스트 셋은 미완성입니다.(엠바고중임) 엠바고 끝나면 공개하겠습니다.
+
+## 문서
+* [ProteinNet Records](docs/proteinnet_records.md)
+* [Splitting Methodology](docs/splitting_methodology.md)
+* [Raw Data](docs/raw_data.md)
+* [FAQ](docs/FAQ.md)
+
+## PyTorch Parser
+Proteinnet은 텐서플로기반 공식 파서르 제공합니다. 
 
 # 하루 한줄 번역
 
