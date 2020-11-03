@@ -28,6 +28,9 @@ ProteinNet records are provided in two forms: human- and machine-readable text f
 ### PyTorch Parser
 ProteinNet includes an official TensorFlow-based parser. [Jeppe Hallgren](https://github.com/JeppeHallgren) has kindly created a PyTorch-based parser that is available [here](https://github.com/OpenProtein/openprotein/blob/master/preprocessing.py).
 
+### Extensions
+[SideChainNet](https://github.com/jonathanking/sidechainnet) extends ProteinNet by adding angle and atomic coordinate information for side chain atoms.
+
 ### Citation
 Please cite the [ProteinNet paper](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2932-0) in BMC Bioinformatics.
 
