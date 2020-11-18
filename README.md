@@ -17,6 +17,11 @@ ProteinNet records are provided in two forms: human- and machine-readable text f
 | [Text-based](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/human_readable/casp7.tar.gz) | [Text-based](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/human_readable/casp8.tar.gz) | [Text-based](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/human_readable/casp9.tar.gz) | [Text-based](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/human_readable/casp10.tar.gz) | [Text-based](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/human_readable/casp11.tar.gz) | [Text-based](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/human_readable/casp12.tar.gz) |
 | [TF Records](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/tfrecords/casp7.tar.gz) | [TF Records](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/tfrecords/casp8.tar.gz) | [TF Records](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/tfrecords/casp9.tar.gz) | [TF Records](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/tfrecords/casp10.tar.gz) | [TF Records](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/tfrecords/casp11.tar.gz) | [TF Records](https://sharehost.hms.harvard.edu/sysbio/alquraishi/proteinnet/tfrecords/casp12.tar.gz) |
 
+| Secondary Structure Data |
+| --- |
+|[ASTRAL entries](https://www.dropbox.com/s/59y3nud4rixombf/single_domain_dssp_annotations.json.gz?dl=0)|
+|[PDB entries](https://www.dropbox.com/s/sne2ak1woy1lrqr/full_protein_dssp_annotations.json.gz?dl=0)|
+
 \* CASP12 test set is incomplete due to embargoed structures. Once the embargo is lifted we will release all structures.
 
 ### Documentation
